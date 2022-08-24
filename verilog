@@ -5,7 +5,7 @@ input [1:0]in,
 output reg out,
 output reg[1:0] change
 );
-parameters s0 =2'b00;
+parameters s0 =2'b00;  // states denoted by 2 bit number
 parameters s1 =2'b01;
 parameters s2 =2'b10;
 
